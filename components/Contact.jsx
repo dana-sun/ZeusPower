@@ -10,7 +10,7 @@ const ContactPage = () => {
         action="contact/?success=true"
         data-netlify="true"
       >
-        <input type="hidden" name="form-name" value="contact"/>
+        <input type="hidden" name="form-name" value="contact-form"/>
         {/* <div className="mb-4 mt-6 flex flex-row"> */}
           <div className="ml-6 mb-3 mr-8 mt-6">
             <label className="block text-gray-700 text-xs font-bold mb-2" htmlFor="name">Full Name *</label>
